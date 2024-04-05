@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 550px;
+    background: url(images/fon1.jpg);
+    background-size: 100% 239px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+.profile {
+    width: 362px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile img {
+    display: block;
+    margin: 0 50px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+.profile h1 {
+    margin: 0;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+text-transform: uppercase;
+}
+
+.profile h2 {
+margin: 0;
+font-weight: 400;
+font-size: 14px;
+line-height: 154.02%;
+text-transform: lowercase;
+color:#800000;
+}
+
+.profile p {
+font-weight: 400;
+font-size: 14px;
+line-height: 140.52%;
+color: #535353;
+margin: 8px 0;
+}
+
+.profile a {
+    width: 362px;
+    height: 45px;
+    background: #A9A9A9;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.profile a:hover {
+    background: linear-gradient(0deg, #FFDAB9 0%, #FFDAB9 107.46%);
+}
+
+main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.ills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+        margin-bottom: 60px;
+}
+
+.ills img {
+    width: 383px;
+    border-radius: 15px;
+}
+ 
+.portfolio {
+    /* visibility: visible; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        margin-bottom: 60px;
+}
+
+.portfolio article {
+    /* visibility: visible; */
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    height: 286px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background:#F5F5F5;
+    border: 2px solid #F5F5F5;
+    border-radius: 23px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.portfolio article img {
+    width: 383px;
+    display: block;
+    margin-right: 25px;
+}
+
+.portfolio article h3 {
+    width: 360px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.portfolio article p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140.52%;
+    width: 360px;
+    color: #535353;
+}
+
+.portfolio article a {
+    background: linear-gradient(90deg, #A9A9A9 0%, #A9A9A9 107.46%);
+    border-radius: 7px;
+    display: flex;
+    width: 219px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+}
+
+.portfolio article a:hover {
+    background: linear-gradient(0deg, #FFDAB9 0%, #FFDAB9 107.46%);
+}
+
+footer {
+    background: url(images/footer1.jpg);
+    width: 100%;
+    height: 78px;
+    padding: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.contacts a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+.contacts a:hover {
+    color: #000000;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+/* ВНУТРЕННЯЯ СТРАНИЦА */
+
+.read {
+    background: #FFFFFF;
+    border: 2px solid #800000;
+    border-radius: 23px;
+    margin-bottom: 60px;
+    padding: 70px 130px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156.02%;
+    color: #535353;
+    position: relative;
+}
+
+
+.read img {
+    width: 440px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.read h1 {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.read h1, .read p, .read ul {
+    padding: 0 130px;
+}
+
+.read ul li {
+    margin-bottom: 15px;
+}
+
+.back {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.back img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.back:hover {
+opacity: 0.3;
+}
